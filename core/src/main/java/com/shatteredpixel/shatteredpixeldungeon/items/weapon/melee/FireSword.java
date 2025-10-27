@@ -3,7 +3,7 @@ package com.shatteredpixel.shatteredpixeldungeon.items.weapons.melee;
 import com.shatteredpixel.shatteredpixeldungeon.actors.Char;
 import com.shatteredpixel.shatteredpixeldungeon.effects.particles.FlameParticle;
 
-public class EpéeDeFeu extends Weapon {
+public class FireSword extends Weapon {
     
     {
         image = 16; // Sprite différent
