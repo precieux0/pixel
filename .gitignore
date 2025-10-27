@@ -1,0 +1,26 @@
+# Build directories
+**/build/
+/android/build/
+/desktop/build/
+/ios/build/
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+
+# System
+.DS_Store
+Thumbs.db
+
+# Local files
+local.properties
+
+# Cache and logs
+*.log
+*.tmp
+*.temp
