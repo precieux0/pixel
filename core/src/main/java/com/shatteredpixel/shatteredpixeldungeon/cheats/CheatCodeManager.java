@@ -32,8 +32,6 @@ import com.shatteredpixel.shatteredpixeldungeon.items.Item;
 import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfHealing;
 import com.shatteredpixel.shatteredpixeldungeon.items.potions.PotionOfStrength;
 import com.shatteredpixel.shatteredpixeldungeon.items.scrolls.ScrollOfUpgrade;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.LegendarySword;
-import com.shatteredpixel.shatteredpixeldungeon.items.weapon.melee.FireSword;
 import com.shatteredpixel.shatteredpixeldungeon.levels.Level;
 import com.shatteredpixel.shatteredpixeldungeon.messages.Messages;
 import com.shatteredpixel.shatteredpixeldungeon.utils.GLog;
@@ -328,7 +326,6 @@ public class CheatCodeManager {
     private static void giveLegendaryWeapons() {
         try {
             // Épée Légendaire
-            Item legendarySword = new LegendarySword();
             if (legendarySword.doPickUp(Dungeon.hero)) {
                 GLog.i("§ " + Messages.get(CheatCodeManager.class, "legendary_sword_obtained") + " §");
             } else {
@@ -336,7 +333,6 @@ public class CheatCodeManager {
             }
             
             // Épée de Feu
-            Item fireSword = new FireSword();
             if (fireSword.doPickUp(Dungeon.hero)) {
                 GLog.i("§ " + Messages.get(CheatCodeManager.class, "fire_sword_obtained") + " §");
             } else {
